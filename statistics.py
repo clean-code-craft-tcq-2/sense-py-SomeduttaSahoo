@@ -9,7 +9,11 @@ def calculateStats(numbers):
         computedStats["min"] = min(numbers)
         computedStats["max"] = max(numbers)
         computedStats["avg"] = sum(numbers)/len(numbers)
-      return computedStats
+    
+        
+       
+        
+        
 
 class EmailAlert:
     def __init__(self):
